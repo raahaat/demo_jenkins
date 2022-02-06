@@ -12,14 +12,21 @@
 	<groupId>com.example.jenkins.build</groupId>
 	<artifactId>demo.jenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
 	<name>demo.jenkins</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<start-class>com.example.jenkins.build.demo.jenkins.Application</start-class>
 		<java.version>11</java.version>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 	<dependencies>
+		<dependency> <groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
