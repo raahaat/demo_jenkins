@@ -8,6 +8,7 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 
+		
 	</parent>
 	<groupId>com.example.jenkins.build</groupId>
 	<artifactId>demo.jenkins</artifactId>
